@@ -10,7 +10,8 @@ function johnLennonFacts(facts) {
   var factsList = new Array([])
   while (facts.length > 0) {
     factsList.push(facts[0] + "!!!")
-  } facts.shift(0)
+    facts.shift(0)
+  }
   return factsList
 }
 
