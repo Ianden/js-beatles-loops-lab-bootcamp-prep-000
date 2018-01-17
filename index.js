@@ -20,6 +20,6 @@ function iLoveTheBeatles(number) {
   do {
     love.push("I love the Beetles!")
     --number
-  } while (number >= 0)
+  } while (number > 0)
   return love
 }
