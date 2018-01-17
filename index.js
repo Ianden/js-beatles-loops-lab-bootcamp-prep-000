@@ -18,7 +18,7 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(number) {
   var love = new Array()
   do {
-    love.push("I love the Beetles!")
+    love.push("I love the Beatles!")
   } while (++number < 15)
   return love
 }
