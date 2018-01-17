@@ -19,7 +19,6 @@ function iLoveTheBeatles(number) {
   var love = new Array()
   do {
     love.push("I love the Beetles!")
-    --number
-  } while (number > 15)
+  } while (++number > 15)
   return love
 }
